@@ -199,5 +199,4 @@ Firebase is used for backend services: Authentication, Firestore database, and S
 
 (Placeholder) This project is licensed under the MIT License.
 # soulcraft
-#   s o l c r a f t 3  
- 
+#

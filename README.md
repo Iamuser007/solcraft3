@@ -1,5 +1,5 @@
 
-![SolCraft Logo](public/solcraft-logo.png)
+![SolCraft Logo](https://i.postimg.cc/MKnpn5n5/1.jpg)
 
 # SolCraft - Trading Infrastructure for the Next Era of Solana
 

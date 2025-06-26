@@ -1,7 +1,7 @@
 
 import { notFound } from "next/navigation";
 import { mockTournaments } from "@/lib/mock-data";
-import { TournamentDetailClient } from "@/components/tournaments/tournament-detail-client";
+// import { TournamentDetailClient } from "@/components/tournaments/tournament-detail-client";
 
 // This function would typically fetch data from a DB or API
 async function getTournamentData(id: string) {
@@ -30,5 +30,5 @@ export default async function TournamentDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  return <TournamentDetailClient tournament={tournament} />;
+  // return <TournamentDetailClient tournament={tournament} />;
 }

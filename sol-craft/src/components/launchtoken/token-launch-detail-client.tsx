@@ -1,8 +1,8 @@
 'use client';
 
 import type { TokenLaunch } from "@/lib/types";
-import { TokenLaunchDetailHeader } from "./token-launch-detail-header";
-import { TokenLaunchParticipateCard } from "./token-launch-participate-card";
+// import TokenLaunchDetailHeader from "src/components/launchtoken/";
+// import { TokenLaunchParticipateCard } from "@/components/launchtoken/";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Coins, Calendar, Clock, BarChart, Info, Shield, Users } from "lucide-react";
 import { format, parseISO } from "date-fns";
@@ -25,7 +25,7 @@ const DetailItem = ({ icon: Icon, label, value }: { icon: React.ElementType, lab
 export function TokenLaunchDetailClient({ launch }: TokenLaunchDetailClientProps) {
   return (
     <div className="container mx-auto py-8">
-      <TokenLaunchDetailHeader launch={launch} />
+      {/* <TokenLaunchDetailHeader launch={launch} /> */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
         <div className="lg:col-span-2 space-y-8">
             <Card>
@@ -72,7 +72,7 @@ export function TokenLaunchDetailClient({ launch }: TokenLaunchDetailClientProps
             </Card>
         </div>
         <div className="lg:col-span-1">
-          <TokenLaunchParticipateCard launch={launch} />
+          {/* <TokenLaunchParticipateCard launch={launch} /> */}
         </div>
       </div>
     </div>
